@@ -292,3 +292,27 @@ td {
 tbody tr:last-child td { border-bottom: none; }
 tbody tr:hover td { background: var(--surface); }
 .null { color: var(--muted); font-style: italic; }
+
+/* ── Charts ── */
+.chart-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.chart-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.chart-type-btns { display: flex; gap: 6px; }
+.chip.active {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.chart-wrapper {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 8px 8px;
+}
